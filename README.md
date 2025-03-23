@@ -4,9 +4,19 @@
 This repository is designed to store, process, and analyze survey data. It includes raw survey responses, data processing scripts, and reports generated from the analysis. The goal is to provide insights based on the collected survey data.
 
 ## Structure
-- `data/` - Contains raw survey responses
-- `scripts/` - Analysis scripts (Python, R, etc.)
-- `docs/` - Documentation and reports
+📂 survey-analysis/
+ ├── 📂 data/           # Collected survey responses (CSV, JSON, etc.)
+ ├── 📂 scripts/        # Data processing and analysis scripts
+ ├── 📂 survey_code/    # Survey form and related files
+ │   ├── index.html     # The main survey form
+ │   ├── style.css      # (Optional) Stylesheet for the form
+ │   ├── script.js      # (Optional) JavaScript for form validation
+ │   ├── submit.php     # (Optional) Backend script for handling submissions
+ ├── 📂 docs/           # Documentation or reports
+ ├── 📄 .gitignore      
+ ├── 📄 README.md      
+ ├── 📄 requirements.txt
+
 
 ## Getting Started
 1. Clone the repo: `git clone <repo-url>`
